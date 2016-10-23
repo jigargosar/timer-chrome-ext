@@ -1,0 +1,30 @@
+{
+  "name": "Timer",
+  "version": "0.1",
+  "description": "Recurring timer beeps every 25m. Cick to activate (ctrl+shift+9). Icon colour shows status.",
+  "background": {
+    "scripts": [
+      "bg.js"
+    ],
+    "persistent": true
+  },
+  "icons": {
+    "32": "off.png"
+  },
+  "browser_action": {
+    "default_title": "Don't click me! Type Ctrl+Shift+9 :)",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": [],
+  "content_scripts": [],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+9",
+        "mac": "Ctrl+Shift+9"
+      }
+    }
+  },
+  "manifest_version": 2
+}

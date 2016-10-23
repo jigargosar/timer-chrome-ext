@@ -1,5 +1,5 @@
 localStorage.setItem("running", "false");
-localStorage.setItem("intervalMinutes", 10);
+localStorage.setItem("intervalMinutes", 25);
 var myAudio = new Audio();        // create the audio object
 myAudio.src = "Basic_Rock_Crash_135.mp3"; // assign the audio file to it
 
